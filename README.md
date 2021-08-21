@@ -1,3 +1,8 @@
+# Dependencies
+````bash
+opkg update && opkg install curl
+````
+
 # Test
 ````bash
 docker build -t openwrt-auto-sysupgrade .
